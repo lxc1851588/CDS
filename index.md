@@ -14,7 +14,7 @@ layout: default
   </div>
   <div style="flex: 1;">
     <br><br>
-    <img src="/data/beer_type.jpg" alt="Taxonomy of Beer Types" style="width: 100%; height: 100%;">
+    <img src="/DADA_web/data/beer_type.jpg" alt="Taxonomy of Beer Types" style="width: 100%; height: 100%;">
   </div>
 </div>
 
