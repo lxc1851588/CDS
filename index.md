@@ -19,7 +19,7 @@ layout: default
   </div>
   <div style="flex: 1;">
     <br><br>
-    <img src="/data/beer_type.jpg" alt="Taxonomy of Beer Types" style="width: 100%; height: 100%;">
+    <img src="data/beer_type.jpg" alt="Taxonomy of Beer Types" style="width: 100%; height: 100%;">
   </div>
 </div>
 
@@ -40,9 +40,9 @@ layout: default
   <div style="flex: 1; padding-right: 20px;">
     <p style="font-size: 20px;">Does local production mirror these regional favorites? We sought to uncover this by first identifying breweries whose reviews are primarily from local beer fans. We choose to say a brewery is local if more than 50% of the reviews where made by users from the same location as the brewery. Then, we computed the average fraction for each category in each region and compared it to the global distribution. The data, Depicted in the maps below, paints a picture of regional production trends compared to global averages. North and Central America, along with China, show a positive deviation, whereas European breweries appear less swayed by regional preferences.</p>
     <br>
-    <img src="/data/tendancy_localBrew.png" style="width: 100%; height: 100%;">
+    <img src="data/tendancy_localBrew.png" style="width: 100%; height: 100%;">
     <p style="font-size: 20px;"><br> When comparing local brewery output to the categories that garner the most reviews, we see a predominantly positive z-index across regions. Interestingly, Iceland registers the lowest z-index, aligning with its status as a significant importer due to geographic constraints.<br> These patterns suggest a possible correlation between the beer varieties produced by local breweries and regional taste preferences. However, the question of causality remains: Does local demand drive brewery production, or do breweries influence regional tastes? The direction of this relationship is an intriguing subject for our next investigation.</p>
-    <img src="/data/most_reviewed.png" style="width: 100%; height: 100%;">
+    <img src="data/most_reviewed.png" style="width: 100%; height: 100%;">
     <br>
   </div>  
 </div>
@@ -57,7 +57,7 @@ layout: default
     </ul>
     <p style="font-size: 20px;"><br>This analysis aimed to discern if there was a discernible pattern indicating that one trend might influence the other on a global scale. However, we encountered a challenge: our dataset lacked the creation dates for the beers. To overcome this, we used the date of a beer's first review as a proxy for its introduction to the market. We aggregated this data quarterly from 2002 to 2017 to mitigate the impact of unbalanced data outside this period.</p>
     <p style="font-size: 20px;">The resulting graphs reveal distinct trajectories for each beer category, without a clear, overarching trend. It's challenging to ascertain if the production of certain categories drives market trends or vice versa. Intriguingly, traditional beer styles like Browns, Wheats, Belgians, and Lagers saw a dip in popularity post-2010, while Pale Ales and Sours experienced a surge. This shift may correlate with the rise of craft brewing, which has notably diversified the beer landscape over the past decade.</p>
-    <img src="/data/time_series.jpg" alt="Beer Category Trends Over Time" style="width: 100%; height: auto;">
+    <img src="data/time_series.jpg" alt="Beer Category Trends Over Time" style="width: 100%; height: auto;">
   </div>
 </div>
 
@@ -72,17 +72,17 @@ layout: default
   </div>
   <div style="flex: 1;">
     <br><br>
-    <img src="/data/review_cloud.png" alt="Keywords from Reviews" style="width: 100%; height: 60%;">
+    <img src="data/review_cloud.png" alt="Keywords from Reviews" style="width: 100%; height: 60%;">
   </div>
 </div>
 <div style="display: flex; align-items: flex-start;">
   <div style="flex: 1; padding-right: 20px;">
     <p style="font-size: 20px;"><br>This suggests that Americans generally express more favorable reviews, while Europeans approach their commentary with a measured tone. Furthermore, American reviews are less likely to be heavily negative, in contrast to European, South American, or Asian reviews, which display a higher tendency for critical remarks — a behavior colloquially described in French as 'ce sont des râleurs' (they are complainers).</p>
     <br>
-    <img src="/data/sentiment.png" style="width: 100%; height: 100%;">
+    <img src="data/sentiment.png" style="width: 100%; height: 100%;">
     <br>
     <p style="font-size: 20px;"><br><b>Our exploration took us to two widely recognized breweries: Millers and Weihenstephan, each occupying distinct positions on the rating spectrum. Millers often encounters negativity in reviews, while Weihenstephan enjoys a more favorable outlook.</b></p>
-    <img src="/data/b1.png" style="width: 100%; height: 100%;">
+    <img src="data/b1.png" style="width: 100%; height: 100%;">
     <p style="font-size: 20px;"><b>Regarding Millers, according to BeerAdvocate data:</b><br>
       - There's a pronounced positivity in comments from the U.S., whereas the rest of the world seems less enthused, as indicated by a comparison with the median sentiment.<br>
       - South American reviews show a tendency toward more negativity than the regional median sentiment.<br>
@@ -90,7 +90,7 @@ layout: default
       One might wonder if the positive skew in U.S. reviews is rooted in national pride, taste preferences, or perhaps a narrower range of beer exposure—questions that invite further exploration.
     </p>
     <br>
-    <img src="/data/b2.png" style="width: 100%; height: 100%;">
+    <img src="data/b2.png" style="width: 100%; height: 100%;">
     <p style="font-size: 20px;"><b>As for Weihenstephan, we note:</b><br>
       - Globally, the brewery's reviews are tinged with more positivity than the average local sentiment.<br>
       - It garners more negativity than average in Asia and the Balkans, yet sees less in the remainder of the world.<br>
