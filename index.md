@@ -50,10 +50,10 @@ layout: default
 ### Time Series Analysis: Unraveling the Trends
 <div style="display: flex; align-items: flex-start;">
   <div style="flex: 1; padding-right: 20px;">
-    <p style="font-size: 20px;">In pursuit of understanding the interplay between brewery production and market presence, we embarked on a time series analysis comparing:</p>
+    <p style="font-size: 20px;">To find answer to those questions, we decided to compare the time series of the following:</p>
     <ul>
-        <li style="font-size: 20px;">&bull; The proportion of various beer categories produced by breweries.</li>
-        <li style="font-size: 20px;">&bull; The prevalence of these categories in the market over time.</li>
+        <li style="font-size: 20px;">&bull; The fraction of the different categories produced by breweries (‘beers’ curve on graph bellow).</li>
+        <li style="font-size: 20px;">&bull; The fraction of the different categories of beer appearance on the market (‘reviews’ curve on graph bellow).</li>
     </ul>
     <p style="font-size: 20px;"><br>This analysis aimed to discern if there was a discernible pattern indicating that one trend might influence the other on a global scale. However, we encountered a challenge: our dataset lacked the creation dates for the beers. To overcome this, we used the date of a beer's first review as a proxy for its introduction to the market. We aggregated this data quarterly from 2002 to 2017 to mitigate the impact of unbalanced data outside this period.</p>
     <p style="font-size: 20px;">The resulting graphs reveal distinct trajectories for each beer category, without a clear, overarching trend. It's challenging to ascertain if the production of certain categories drives market trends or vice versa. Intriguingly, traditional beer styles like Browns, Wheats, Belgians, and Lagers saw a dip in popularity post-2010, while Pale Ales and Sours experienced a surge. This shift may correlate with the rise of craft brewing, which has notably diversified the beer landscape over the past decade.</p>
