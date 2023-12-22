@@ -29,7 +29,7 @@ layout: default
   <div style="flex: 1; padding-right: 20px;">
     <p style="font-size: 20px;">Our approach involved splitting the data by region and performing a multivariate linear regression across the various categories. The category with the highest coefficient was deemed the regional favorite.</p>
     <br>
-    <img src="/data/prefered_cat_byCountry.png" style="width: 100%; height: 100%;">
+    <img src="data/prefered_cat_byCountry.png" style="width: 100%; height: 100%;">
     <br>
     <p style="font-size: 20px;"><br>As we can observe, North America and Australia show a preference for stout beers, characterized by their dark hues. Conversely, China, India, and South America exhibit a fondness for Belgian beers, while European tastes lean towards sour beers. Interestingly, Belgians themselves don't favor Belgian beer as much, potentially due to their broader exposure and consequently higher standards for this category. Countries not included in the dataset are marked in grey.</p>
     <br>
