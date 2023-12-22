@@ -12,7 +12,7 @@ address: 125/A, CA Commercial Area, California, USA
 copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com)
 
 menu:
-  - { name: Contact, link: "/contact" }
+  - { name: Contact, link: "/_pages/contact.html" }
 
 #-------------------------------
 # Google Analytics Section
