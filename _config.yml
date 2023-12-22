@@ -1,5 +1,5 @@
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/DADA_web"
+url: "https://lxc1851588.github.io" 
 
 # Build settings
 markdown: kramdown
