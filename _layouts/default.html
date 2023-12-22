@@ -1,6 +1,3 @@
----
-layout: compress
----
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,9 +7,13 @@ layout: compress
 
   {% include header.html %}
 
-  {{ content }}
+  {% include hero-section.html %}
 
-  {% include contact-section.html %}
+  <section data-background="{{site.baseurl}}/assets/images/backgrounds/bg-dots.png">
+    <div class="container">
+      {{ content }}
+    </div>
+  </section>
 
   {% include footer.html %}
 

@@ -1,16 +1,26 @@
 ---
 layout: default
 ---
+<head>
+  <style>
+    .contact-info p {
+      font-size: 30px;
+      color: #fff;
+      margin-bottom: 15px; 
+    }
 
+    .contact-info a {
+      color: #fff; 
+      text-decoration: none; 
+    }
+
+    .contact-info a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
 <!-- page title -->
 <section class="page-title bg-primary position-relative">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 text-center">
-        <h1 class="text-white font-tertiary">{{ page.title }}</h1>
-      </div>
-    </div>
-  </div>
   <!-- background shapes -->
   <img src="{{ site.baseurl }}/assets/images/illustrations/page-title.png" alt="illustrations" class="bg-shape-1 w-100">
   <img src="{{ site.baseurl }}/assets/images/illustrations/leaf-pink-round.png" alt="illustrations" class="bg-shape-2">
@@ -19,6 +29,16 @@ layout: default
   <img src="{{ site.baseurl }}/assets/images/illustrations/leaf-yellow.png" alt="illustrations" class="bg-shape-5">
   <img src="{{ site.baseurl }}/assets/images/illustrations/dots-group-cyan.png" alt="illustrations" class="bg-shape-6">
   <img src="{{ site.baseurl }}/assets/images/illustrations/leaf-cyan-lg.png" alt="illustrations" class="bg-shape-7">
+  <div class="container" style="padding-top: 0px;">
+    <div class="row">
+      <div class="col-12 text-center contact-info">
+        <p>Anthony Ducret, <a href="mailto:anthony.ducret@epfl.ch">anthony.ducret@epfl.ch</a></p>
+        <p>Benjamin Harbich, <a href="mailto:benjamin.harbich@epfl.ch">benjamin.harbich@epfl.ch</a></p>
+        <p>Mathieu Ziegler, <a href="mailto:mathieu.ziegler@epfl.ch">mathieu.ziegler@epfl.ch</a></p>
+        <p>Swann Destouches, <a href="mailto:swann.destouches@epfl.ch">swann.destouches@epfl.ch</a></p>
+        <p>Xingchen Li, <a href="mailto:xingchen.li@epfl.ch">xingchen.li@epfl.ch</a></p>
+      </div>
+  </div>
 </section>
 <!-- /page title -->
 
